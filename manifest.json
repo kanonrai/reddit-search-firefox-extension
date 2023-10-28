@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "reddit-google-search",
+    "version": "1.0",
+    "description": "Search google for a term prepended with 'Reddit'",
+    "background": {
+        "scripts": ["main.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "contextMenus",
+        "search"
+    ]
+}
